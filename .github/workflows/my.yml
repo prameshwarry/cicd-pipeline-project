@@ -20,9 +20,5 @@ jobs:
           node-version: 18
       - name: install dependencies
         run: npm install 
-      - name: start app
-        run: node index.js
       - name: Deploy
         run: echo "deploying backend..."
-      - name: start app
-        run: node index.js
