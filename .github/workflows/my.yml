@@ -15,6 +15,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
+      - name: install dependencies
+        run: npm install 
+      - name: start app
+        run: node index.js
+      - name: Deploy
+        run: echo "deploying backend..."
+        
 
       - name: Install dependencies
         run: npm install
