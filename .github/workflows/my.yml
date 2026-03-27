@@ -24,3 +24,5 @@ jobs:
         run: node index.js
       - name: Deploy
         run: echo "deploying backend..."
+      - name: start app
+        run: node index.js
